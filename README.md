@@ -10,9 +10,9 @@
 使用方式
 ----------
 
-###上传插件
+##上传插件
 
-####html:
+###html:
     
     <input id="fileupload" type="file" name="file" value="" />
     <!--如需压缩图片时（主要为移动端）-->
@@ -21,7 +21,7 @@
     <script src="yaoqi.uploadfile.js"></script>
 
     
-####javascript:
+###javascript:
 
 默认暴露 yaoqi.upload
 初始化 yaoqi.upload.init(选择框的ID，参数);
