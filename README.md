@@ -1,11 +1,12 @@
 # yaoqi
 [msxiehui@163.com](mail://msxiehui@163.com)<br>
 北京耀启网络科技有责任公司
-
+## 列表 #
 1、图片上传插件 yaoqi.uploadfile.js <br>
    压缩依赖 lrz.mobile.min.js （3.0版） [最新localResizeIMG 4.09 已停止维护](https://github.com/think2011/localResizeIMG)
-   
-html:
+#### 使用方式
+#####上传插件
+#####html:
     
     <input id="fileupload" type="file" name="file" value="" />
     <!--如需压缩图片时（主要为移动端）-->
@@ -13,7 +14,7 @@ html:
     <!--插件主文件-->
     <script src="yaoqi.uploadfile.js"></script>
     
-javascript:
+#####javascript:
 
 默认暴露 yaoqi.upload
 初始化 yaoqi.upload.init(选择框的ID，参数);
@@ -45,7 +46,8 @@ javascript:
     
     }
 
-如果 auto 参数为 flase 时  
+
+如果 **auto** 参数为 **flase** 时  
 通过  yaoqi.upload.start() 执行上传操作。
     
     $("#btn").click(function(){
